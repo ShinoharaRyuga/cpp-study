@@ -12,6 +12,7 @@ int main()
 		fclose(fp);
 	}
 
+	printf("==========ファイルヘッダ===========\n");
 	// ファイルタイプ　通常は'BM'
 	char* p = bmp;
 	char buff[3];
@@ -19,46 +20,79 @@ int main()
 	buff[1] = *p; p++;
 	buff[2] = 0;
 	printf("bfType = %s", buff);
+	printf("\n");
 
 	//ファイルサイズ取得
 	int* size = (int*)*p; p += 4;
-	printf("\n");
 	printf("\nbfSize = %d", size);
+	printf("\n");
 
 	//予約領域
 	p += 4;
 
 	//ファイル先頭から画像データまでのオフセット (byte)
 	int* bfOffBits = (int*)*p; p += 4;
-	printf("\n");
 	printf("\nbfOffBits = %d", bfOffBits);
 
+	printf("\n====================================\n");
+	printf("\n");
+
+
+	printf("=============情報ヘッダ==============");
 	//ヘッダサイズ
 	int* headSize = (int*)*p; p += 4;
-	printf("\n");
 	printf("\nheadSize = %d", headSize);
 
-	//画像の幅 (ピクセル)
+	//画像の幅
 	int* bcWidth = (int*)*p; p += 4;
 	printf("\n");
 	printf("\nbcWidth = %d", bcWidth);
 
-	//画像の高さ (ピクセル)
+	//画像の高さ
 	int* bcHeight = (int*)*p; p += 4;
 	printf("\n");
 	printf("\nbcHeight = %d", bcHeight);
 
-	//色取得　
-	//青
-	int* b = (int*)*p; p += 28;
+	//プレーン数
+	short* planes = (short*)*p; p += 2;
 	printf("\n");
-	printf("\nblue = %d", b);
+	printf("\nbcPlanes = %d", planes);
 
-	//緑
-	int* g = (int*)*p; p += 4;
-	printf("\ngreen = %d", g);
+	//1画素あたりのデータサイズ (bit)
+	short* bitCount = (short*)*p; p += 2;
+	printf("\n");
+	printf("\nbcBitCount = %d", bitCount);
 
-	//青
-	int* r = (int*)*p; p += 4;
-	printf("\nred = %d", r);
+	//圧縮形式
+	int* compression = (int*)*p; p += 4;
+	printf("\n");
+	printf("\nbicompression = %d", compression);
+
+	//画像データ部のサイズ (byte)
+	int* sizeImage = (int*)*p; p += 4;
+	printf("\n");
+	printf("\nbiSizeImage = %d", sizeImage);
+
+	//横方向解像度
+	int* biXPixPerMeter = (int*)*p; p += 4;
+	printf("\n");
+	printf("\nbiXPixPerMeter = %d", biXPixPerMeter);
+
+	//縦方向解像度
+	int* biYPixPerMeter = (int*)*p; p += 4;
+	printf("\n");
+	printf("\nbiYPixPerMeter = %d", biYPixPerMeter);
+
+	//格納されているパレット数
+	int* biClrUsed = (int*)*p; p += 4;
+	printf("\n");
+	printf("\nbiClrUsed = %d", biClrUsed);
+
+	//重要なパレットのインデックス
+	int* biCirImportant = (int*)*p; p += 4;
+	printf("\n");
+	printf("\nbiCirImportant = %d", biCirImportant);
+
+	printf("\n====================================\n");
+	printf("\n");
 }

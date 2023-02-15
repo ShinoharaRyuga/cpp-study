@@ -1,18 +1,28 @@
 ﻿  cpp-study.cpp
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(26,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(26,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(34,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(34,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(39,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(39,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(27,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(27,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(35,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(35,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
 C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(44,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
 C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(44,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
 C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(49,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
 C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(49,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(55,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(55,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(59,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(59,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(63,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
-C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(63,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(54,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(54,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(59,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'short *' です
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(59,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('short *' 型) と競合しています
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(64,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'short *' です
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(64,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('short *' 型) と競合しています
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(69,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(69,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(74,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(74,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(79,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(79,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(84,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(84,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(89,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(89,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(94,9): warning C4477: 'printf' : 書式文字列 '%d' には、型 'int' の引数が必要ですが、可変個引数 1 は型 'int *' です
+C:\Users\vantan\Source Code\C++\cpp-study\cpp-study\cpp-study.cpp(94,9): warning C4313: 'printf': 書式文字列内の '%d' が引数 1 ('int *' 型) と競合しています
   cpp-study.vcxproj -> C:\Users\vantan\Source Code\C++\cpp-study\x64\Debug\cpp-study.exe
